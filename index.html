@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<title>Growdme</title>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-inner">
+				<div class="header-logo"><img src="images/headerLogo.png"> Growd<span>me</span></div>
+
+				<nav class="header-nav">
+					<a href="/" class="header-navLink">Home</a>
+					<a href="/" class="header-navLink">How it works</a>
+					<a href="/" class="header-navLink">Discover a project</a>
+					<a href="/" class="header-navLink">Blog</a>
+					<a href="/" class="header-navLink">Find out more</a>
+				</nav>
+
+				<button class="header-btn" type="button">
+					<span class="header-logoItem">Login</span>
+				</button>
+
+				<div id="loginModal">
+					<span class="close">&times;</span>
+					<div id="innerModal">
+						<div class="form"><input type="text" id="login" maxlength="15" placeholder="Login" pattern="[A-Za-z]^[0-9]+$"></div>
+
+						<div class="form"><input type="password" id="Password" maxlength="8" placeholder="Password"></div>
+
+						<div class="form"><input type="button" id="btn" value="Sign in" disabled></div>
+
+						<p class="text">*Поля Login и Password могут содержать только латинские буквы и цифры.<br>*Поле Login может содержать 15 символов.<br>*Поле Password может содержать 10 символов.</p>
+					</div>
+				</div>	
+				
+			</div>
+		</div>
+	</header>
+
+	<div class="page">
+
+		<nav class="header-nav media">
+			<a href="/" class="header-navLink">Home</a>
+			<a href="/" class="header-navLink">How it works</a>
+			<a href="/" class="header-navLink">Discover a project</a>
+			<a href="/" class="header-navLink">Blog</a>
+			<a href="/" class="header-navLink">Find out more</a>
+		</nav>
+
+		<div class="intro">
+			<div class="container">
+				<div class="intro-inner">
+					<h1 class="intro-title">Intellectual Property has the Shelf Life</h1>
+					<h2 class="intro-suptitle">of a Banana.</h2>
+					<button class="intro-button">Become a Member</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="container">
+
+				<div class="section-header">
+					<img class="section-img" src="images/section.png">
+					<h1 class="section-title">Our work is the presentation</h1>
+					<h1 class="section-title">of our capabilities.</h1>
+					<h3 class="section-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </h3>
+					<h3 class="section-suptitle">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </h3>
+				</div>
+
+				<div class="slider">
+					<div class="slider-item">
+						<span class="slider-num">1</span>
+						<span class="slider-text">Simple</span>
+					</div>
+					<div class="slider-item">
+						<span class="slider-num">2</span>
+						<span class="slider-text">Transparent</span>
+					</div>
+					<div class="slider-item">
+						<span class="slider-num">3</span>
+						<span class="slider-text">Collaborative</span>
+					</div>
+				</div>
+
+				<div class="projects">
+					<div class="projects-img">
+						<img src="images/projects.png">
+					</div>
+					<div class="projects-text">
+						<h2 class="projects-title">Browse projects, like booking a hotel online !</h2>
+						<h3 class="projects-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="find">
+
+			<div class="find-inner one">
+				<div class="find-img">
+					<img src="images/find1.png">
+				</div>
+				<div class="find-content">
+					<h2 class="find-title">Find Properties</h2>
+					<h3 class="find-suptitle">Sign up to browse the portfolio. Your journey to becoming a real estate baron starts here.</h3>
+					<button class="find-button one" type="button">Become A Member</button>
+				</div>
+			</div>
+
+			<div class="find-inner two">
+				<div class="find-img">
+					<img src="images/find2.png">
+				</div>
+				<div class="find-content">
+					<h2 class="find-title">Find Buyers</h2>
+					<h3 class="find-suptitle">Sign up to browse the portfolio. Your journey to becoming a real estate baron starts here.</h3>
+					<button class="find-button two" type="button">Submit Your Project</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+			<div class="info">
+				<div class="info-content">
+					<h1 class="info-title">Featured Projects</h1>
+					<h3 class="info-suptitle">Brief details of new and popular projects. To view full listings, you will be required to sign up and become a member.</h3>
+				</div>
+				<div class="info-button">
+					<button class="info-btn" type="button">Become A Member</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="sample">
+				<div class="sample-inner">
+					<img src="images/sample1.png">
+					<div class="sample-content">
+						<h2 class="sample-title">Ontario Tower , LONDON</h2>
+						<h3 class="sample-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+						<h3 class="sample-num percent">10% Funded</h3>
+						<h3 class="sample-num days">8 Days Left</h3>
+						<h3 class="details">See Project Details</h3>
+						<img class="details-img" src="images/sample3.png">
+					</div>
+				</div>
+
+				<div class="sample-inner">
+					<img src="images/sample1.png">
+					<div class="sample-content">
+						<h2 class="sample-title">Ontario Tower , LONDON</h2>
+						<h3 class="sample-suptitle" id="samSuptitl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+						<h3 class="sample-num percent">60% Funded</h3>
+						<h3 class="sample-num days">8 Days Left</h3>
+						<h3 class="details">See Project Details</h3>
+						<img class="details-img" src="images/sample3.png">
+					</div>
+				</div>
+
+				<div class="sample-inner">
+					<img src="images/sample1.png">
+					<div class="sample-content">
+						<h2 class="sample-title">Ontario Tower , LONDON</h2>
+						<h3 class="sample-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+						<h3 class="sample-num percent">10% Funded</h3>
+						<h3 class="sample-num days">8 Days Left</h3>
+						<h3 class="details">See Project Details</h3>
+						<img class="details-img" src="images/sample3.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="reviews">
+			<div class="container">
+				<div class="reviews-header">
+					<h1 class="reviews-title">Be Part of a Growing International Community</h1>
+					<h3 class="reviews-suptitle">One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</h3>
+				</div>
+
+			
+				<div class="comment">
+
+					<div class="comment-inner">
+						<div class="comment-text">
+							<h2 class="comment-title">One of the Best</h2>
+							<h3 class="comment-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</h3>
+						</div>
+						<div class="comment-ico">
+							<div class="comIco">
+								<img src="images/comment-ico.png">
+							</div>
+							<div class="comIco-text">
+								<h3>David Beckham</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="comment-inner">
+						<div class="comment-text">
+							<h2 class="comment-title">One of the Best</h2>
+							<h3 class="comment-suptitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</h3>
+						</div>
+						<div class="comment-ico">
+							<div class="comIco">
+								<img src="images/comment-ico.png">
+							</div>
+							<div class="comIco-text">
+								<h3>David Beckham</h3>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div> <!--page-->
+
+	<footer class="footer">
+		<div class="container foot-img">
+			<img class="footer-img" src="images/footer-img.png">
+		</div>
+
+		<div class="foot-text">
+			<h3 class="footer-text">Copyright © 2001 - 2014  Cssauthor.com</h3>
+		</div>
+		
+	</footer>
+<script type="text/javascript" src="app/script.js"></script>	
+</body>
+
+</html>
